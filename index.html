@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Humble.9ja</title>
+    <link rel="stylesheet" href="css/output.css" />
+    <link rel="stylesheet" href="src/input.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <style>
+      .blackboy::placeholder {
+        color: black;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body class="dark:bg-black dark:text-white dark:bg-none">
+    <header
+      class="h-[15vh] w-[100%] shadow-2xl flex justify-between items-center"
+    >
+      <div>
+        <p
+          class="logo font-black text-[blue] ml-10 w-[90vw] pl-16 lg:pl-0 lg:w-[20vw] sm:flex justify-center"
+        >
+          HumBLe.9ja
+        </p>
+      </div>
+      <ul class="w-[40vw] flex justify-between text-2xl font-black mr-10">
+        <li class="lg:block hidden hover:text-[blue]">HOME</li>
+        <li class="lg:block hidden hover:text-[blue]">MOVIES</li>
+        <li class="lg:block hidden hover:text-[blue]">GENRE</li>
+        <li class="lg:block hidden hover:text-[blue]">POPULAR</li>
+        <button class="toggle-dark text-2xl font-black">
+          <i class="bi bi-sun-fill"></i>
+        </button>
+      </ul>
+    </header>
+    <section
+      class="sectop top mt-[13em] h-[40vh] flex flex-col justify-between"
+    >
+      <div
+        class="firstp font-black text-5xl flex flex-col justify-between text-center"
+      >
+        <p>Unlimited movies, TV shows, and more</p>
+        <p>Download and watch latest movies and tv shows of all genres</p>
+      </div>
+      <div class="flex justify-center sm:relative top-[1em]">
+        <input
+          type="text"
+          placeholder="search"
+          class="blackboy border-black border-[1px] dark:border-white w-[40vw] md:w-[40vw] sm:w-[60vw] h-[8vh] bg-black bg-opacity-[0.3] text-xl font-black rounded-3xl pl-14 outline-none dark:text-white"
+        />
+        <i class="bi bi-search relative right-[32em] top-[22px] text-2xl"></i>
+      </div>
+      <div
+        class="blueboard text-[blue] text-center md:text-2xl font-black bg-[black] h-[10vh] w-[95%] sm:w-[90vw] sm:ml-[1.5em] md:ml-[30px] lg:ml-[90px] relative left-3 sm:left-0 sm:top-[4em] top-[2.8em]"
+      >
+        TRENDING
+      </div>
+    </section>
+    <section class="flex justify-around relative bottom-[7em] sm:top-[3em]">
+      <div
+        class="overflowdiv w-[200vw] sm:w-[300vw] md:w-[200vw] overflow-y-auto"
+      >
+        <div
+          class="overflowdiv overflow-x-auto flex justify-around sm:w-[300vw] w-[200vw] md:w-[200vw]"
+        >
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/avatar.jpeg"
+              alt=""
+              class="avatar w-[16vw] md:h-[51vh] sm:w-[25vw] md:w-[16vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="avatarfig flex sm:text-center sm:w-[15vw]">
+              Avatar the way of the water
+            </figcaption>
+          </figure>
+          <figure
+            class="text-sm bloody font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/bloody daddy.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Bloody Daddy</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/ghosted.jpeg"
+              alt=""
+              class="avatar w-[16vw] md:h-[51vh] sm:w-[25vw] md:w-[16vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Ghosted</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/hawan.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Jawan</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/hypnotic.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Hypnotic</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/joy ride.jpeg"
+              alt=""
+              class="avatar w-[16vw] sm:w-[25vw] md:h-[51vh] md:w-[16vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Joy ride</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/knights of the zodiac.jpeg "
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="avatarfig">Knights of the Zodiac</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/prey.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Prey</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/salar.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Salar</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/sisu.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Sisu</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/the island.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>The Island</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div
+        class="blueboard text-[blue] text-center md:text-2xl font-black bg-[black] h-[10vh] w-[95%] sm:w-[90vw] sm:ml-[1.5em] md:ml-[30px] lg:ml-[90px] relative left-3 sm:left-0 sm:top-[4em] top-[2.8em]"
+      >
+        ANIME
+      </div>
+      <div class="w-[100%] overflow-auto relative top-[1em] md:top-[3em]">
+        <div class="overflowdiv overflow-x-auto flex justify-around w-[200vw]">
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/adventure of dai.jpeg"
+              alt=""
+              class="avatar w-[16vw] md:h-[51vh] sm:w-[25vw] md:w-[16vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="avatarfig flex sm:text-center sm:w-[15vw]">
+              Adventure of Dai
+            </figcaption>
+          </figure>
+          <figure
+            class="text-sm bloody font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/one piece.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>One piece</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/spy x family.jpeg"
+              alt=""
+              class="avatar w-[16vw] md:h-[51vh] sm:w-[25vw] md:w-[16vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Spy x family</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/sand land.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Sand land</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/alice to therese.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Alice to Therese</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/city hunter.jpeg"
+              alt=""
+              class="avatar w-[16vw] sm:w-[25vw] md:h-[51vh] md:w-[16vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>City hunter</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/monster hunter.jpeg "
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="avatarfig">Monster hunter</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/naruto.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Naruto</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/picture of all stars f.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="w-[30vw] md:w-[18vw] text-center">
+              Picture of all stars f
+            </figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/black clover.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Black clover</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/detective conan.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Detective Conan</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div
+        class="blueboard text-[blue] text-center md:text-2xl font-black bg-[black] h-[10vh] w-[95%] sm:w-[90vw] sm:ml-[1.5em] md:ml-[30px] lg:ml-[90px] relative left-3 sm:left-0 sm:top-[4em] top-[2.8em]"
+      >
+        K-DRAMA
+      </div>
+      <div class="w-[100%] overflow-auto relative top-[1em] md:top-[3em]">
+        <div class="overflowdivv overflow-x-auto flex justify-around w-[250vw]">
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/big mouth.jpeg"
+              alt=""
+              class="avatar w-[16vw] md:h-[51vh] sm:w-[25vw] md:w-[16vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="avatarfig flex sm:text-center sm:w-[15vw]">
+              Big mouth
+            </figcaption>
+          </figure>
+          <figure
+            class="text-sm bloody font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/vincenzo.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>vincenzo</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/king eternal monarch.jpeg"
+              alt=""
+              class="avatar w-[16vw] md:h-[51vh] sm:w-[25vw] md:w-[16vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="w-[30vw] md:w-[18vw] text-center">
+              king eternal monarch
+            </figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/king the land.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>king the land</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/my love from the star.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="w-[30vw] md:w-[18vw] text-center">
+              my love from the star
+            </figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/oh my venus.jpeg"
+              alt=""
+              class="avatar w-[16vw] sm:w-[25vw] md:h-[51vh] md:w-[16vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Oh my venus</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/doom.jpeg "
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="avatarfig">Doom</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/celebrity.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Celebrity</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/uncanny counter.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="w-[30vw] md:w-[18vw] text-center">
+              Uncanny counter
+            </figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/island kdrama.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Island</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/healer.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Healer</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/k2.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>K2</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/korean odyssey.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Korean Odyssey</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/rugal.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Rugal</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div
+        class="blueboard text-[blue] text-center md:text-2xl font-black bg-[black] h-[10vh] w-[95%] sm:w-[90vw] sm:ml-[1.5em] md:ml-[30px] lg:ml-[90px] relative left-3 sm:left-0 sm:top-[4em] top-[2.8em]"
+      >
+        FOR KIDS
+      </div>
+      <div class="w-[100%] overflow-auto relative top-[1em] md:top-[3em]">
+        <div class="overflowdiv overflow-x-auto flex justify-around w-[200vw]">
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/coco.jpeg"
+              alt=""
+              class="avatar w-[16vw] md:h-[51vh] sm:w-[25vw] md:w-[16vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="avatarfig flex sm:text-center sm:w-[15vw]">
+              COCO
+            </figcaption>
+          </figure>
+          <figure
+            class="text-sm bloody font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/small foot.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Small foot</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/lion king.jpeg"
+              alt=""
+              class="avatar w-[16vw] md:h-[51vh] sm:w-[25vw] md:w-[16vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Lion king</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/chillar party.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Chillar party</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/frozen.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Frozen</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/onward.jpeg"
+              alt=""
+              class="avatar w-[16vw] sm:w-[25vw] md:h-[51vh] md:w-[16vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Onward</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/the stray.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="avatarfig">The stray</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/the hidden world.jpg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>The hidden world</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/teenage mutant ninja turtles.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="w-[30vw] md:w-[18vw] text-center">
+              Teenage mutant ninja turtles
+            </figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/pj mask.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>PJ mask</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/big foot.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Big foot</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div
+        class="blueboard text-[blue] text-center md:text-2xl font-black bg-[black] h-[10vh] w-[95%] sm:w-[90vw] sm:ml-[1.5em] md:ml-[30px] lg:ml-[90px] relative left-3 sm:left-0 sm:top-[4em] top-[2.8em]"
+      >
+        PG 18
+      </div>
+      <div class="w-[100%] overflow-auto relative top-[1em] md:top-[3em]">
+        <div class="overflowdiv overflow-x-auto flex justify-around w-[200vw]">
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/365.jpeg"
+              alt=""
+              class="avatar w-[16vw] md:h-[51vh] sm:w-[25vw] md:w-[16vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="avatarfig flex sm:text-center sm:w-[15vw]">
+              365 Days
+            </figcaption>
+          </figure>
+          <figure
+            class="text-sm bloody font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/pirates.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Pirates</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/after we collided 18.jpeg"
+              alt=""
+              class="avatar w-[16vw] md:h-[51vh] sm:w-[25vw] md:w-[16vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>After we collided</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/disobedience.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Disobedience</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/fifty shades of gray.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Fifty shades of grey</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/friends with benefits 18.jpeg"
+              alt=""
+              class="avatar w-[16vw] sm:w-[25vw] md:h-[51vh] md:w-[16vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Friends with benefits</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/you get me 18.jpeg "
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="avatarfig">You get me</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/the year i started masturbating 18.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>The year I started masturbating</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/kiss and kill.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="w-[30vw] md:w-[18vw] text-center">
+              Kiss and kill
+            </figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/love and leashes.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Love and leashes</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/blue is warmest color.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Blue is the warmest color</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div
+        class="blueboard text-[blue] text-center md:text-2xl font-black bg-[black] h-[10vh] w-[95%] sm:w-[90vw] sm:ml-[1.5em] md:ml-[30px] lg:ml-[90px] relative left-3 sm:left-0 sm:top-[4em] top-[2.8em]"
+      >
+        SERIES
+      </div>
+      <div class="w-[100%] overflow-auto relative top-[1em] md:top-[3em]">
+        <div class="overflowdiv overflow-x-auto flex justify-around w-[200vw]">
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/queen charlotte.jpeg"
+              alt=""
+              class="avatar w-[16vw] md:h-[51vh] sm:w-[25vw] md:w-[16vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="avatarfig flex sm:text-center sm:w-[15vw]">
+              Queen Charlotte
+            </figcaption>
+          </figure>
+          <figure
+            class="text-sm bloody font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/teen wolf.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Teen wolf</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/gotham.jpeg"
+              alt=""
+              class="avatar w-[16vw] md:h-[51vh] sm:w-[25vw] md:w-[16vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Gotham</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/game of thrones.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Game of thrones</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/wednesday.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Wednesday</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/wheel of time.jpeg"
+              alt=""
+              class="avatar w-[16vw] sm:w-[25vw] md:h-[51vh] md:w-[16vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Wheel of time</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/the witcher.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="avatarfig">The witcher</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/vikings.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Vikings</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/peaky blinders.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="w-[30vw] md:w-[18vw] text-center">
+              Peaky blinders
+            </figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/never have i ever.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Never have I ever</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/the originals.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>The originals</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div
+        class="blueboard text-[blue] text-center md:text-2xl font-black bg-[black] h-[10vh] w-[95%] sm:w-[90vw] sm:ml-[1.5em] md:ml-[30px] lg:ml-[90px] relative left-3 sm:left-0 sm:top-[4em] top-[2.8em]"
+      >
+        HORROR
+      </div>
+      <div class="w-[100%] overflow-auto relative top-[1em] md:top-[3em]">
+        <div class="overflowdiv overflow-x-auto flex justify-around w-[200vw]">
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/anti christ.jpeg"
+              alt=""
+              class="avatar w-[16vw] md:h-[51vh] sm:w-[25vw] md:w-[16vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="avatarfig flex sm:text-center sm:w-[15vw]">
+              Anti christ
+            </figcaption>
+          </figure>
+          <figure
+            class="text-sm bloody font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/the exorcism og god.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Excorcism of God</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/evil is reborn.jpeg"
+              alt=""
+              class="avatar w-[16vw] md:h-[51vh] sm:w-[25vw] md:w-[16vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Evil is reborn</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/the nun.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>The nun</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/the conjuring.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>The conjuring</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/the popes exorcist.jpeg"
+              alt=""
+              class="avatar w-[16vw] sm:w-[25vw] md:h-[51vh] md:w-[16vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Popes exorcist</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/wrong turn.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="avatarfig">Wrong turn</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/truth or dare.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>NTruth or dare</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/chain saw massacre.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="w-[30vw] md:w-[18vw] text-center">
+              Chain saw massacre
+            </figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/death note.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Death note</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/halloween horror nights.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Halloween horror nights</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div
+        class="blueboard text-[blue] text-center md:text-2xl font-black bg-[black] h-[10vh] w-[95%] sm:w-[90vw] sm:ml-[1.5em] md:ml-[30px] lg:ml-[90px] relative left-3 sm:left-0 sm:top-[4em] top-[2.8em]"
+      >
+        NOLLYWOOD
+      </div>
+      <div class="w-[100%] overflow-auto relative top-[1em] md:top-[3em]">
+        <div class="overflowdiv overflow-x-auto flex justify-around w-[200vw]">
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/far from home.jpeg"
+              alt=""
+              class="avatar w-[16vw] md:h-[51vh] sm:w-[25vw] md:w-[16vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="avatarfig flex sm:text-center sm:w-[15vw]">
+              Far from home
+            </figcaption>
+          </figure>
+          <figure
+            class="text-sm bloody font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/black book.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Black book</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/brotherhood.jpeg"
+              alt=""
+              class="avatar w-[16vw] md:h-[51vh] sm:w-[25vw] md:w-[16vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Brotherhood</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/gang of lagos.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Gangs of Lagos</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/tiger stail.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Tiger's tail</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/omo ghetto.jpeg"
+              alt=""
+              class="avatar w-[16vw] sm:w-[25vw] md:h-[51vh] md:w-[16vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Omo ghetto</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/symphony.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="avatarfig">Symphony</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/best friends in the world.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Best friends in the world</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/hammer"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption class="w-[30vw] md:w-[18vw] text-center">
+              Hammer
+            </figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/last flight to abuja.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Last flight to Abuja</figcaption>
+          </figure>
+          <figure
+            class="text-sm font-black flex-shrink-0 md:text-lg text-[blue] text-center"
+          >
+            <img
+              src="img/lockdown.jpeg"
+              alt=""
+              class="sm:w-[25vw] md:w-[17vw] sm:h-[30vh] md:h-[50.8vh] h-[20vh] w-[30vw] rounded-xl hover:scale-95"
+            />
+            <figcaption>Lockdown</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <footer class="h-[50vh] bg-[blue] relative top-[10em]">
+      <div
+        class="h-[10vh] bg-[#292997] text-[white] flex items-center justify-center text-3xl font-black"
+      >
+        <a href="index.html ">Back to top</a>
+      </div>
+      <div class="flex justify-around text-lg font-bold items-center">
+        <ul class="flex flex-col justify-around h-[40vh]">
+          <li><a href="#">Questions? contact us</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Investor relations</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Speed test</a></li>
+          <button
+            class="h-[6vh] w-[8vw] border-white border-[5px] rounded-md text-white bg-[black]"
+          >
+            <i class="bi bi-translate font-bold text-3xl"></i> English
+          </button>
+        </ul>
+        <ul class="flex flex-col justify-around h-[30vh]">
+          <li><a href="#">Help center</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Cookie prefrences</a></li>
+          <li><a href="#">Legal notices</a></li>
+        </ul>
+        <ul class="flex flex-col justify-around h-[37vh]">
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Ways to watch</a></li>
+          <li><a href="#">Investor relations</a></li>
+          <li><a href="#">Corporate information</a></li>
+          <li><a href="#">Only on Humble.9ja</a></li>
+        </ul>
+        <ul class="flex flex-col justify-around h-[20vh]">
+          <li><a href="#">media center</a></li>
+          <li><a href="#">Terms of use</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

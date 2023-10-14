@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.display-none {
+  @apply hidden;
+}
+.linear {
+  background: linear-gradient(20deg, white 50%, blue 50%);
+}
+
+.logo {
+  font-style: italic;
+  font-family: serif;
+  font-size: xx-large;
+  font-weight: 900;
+  text-shadow: black;
+}
+ul {
+}
+.top {
+  font-family: fantasy;
+}
+@media (max-width: 500px) {
+  .logo {
+    padding-left: 40px;
+    position: relative;
+    right: 1em;
+    width: 90vw;
+  }
+  .firstp {
+    font-size: medium;
+  }
+  .sectop {
+    position: relative;
+    bottom: 8em;
+    height: 40vh;
+  }
+  .blackboy {
+    width: 80vw;
+    height: 7vh;
+    margin-left: 16px;
+  }
+  .blueboard {
+    position: relative;
+    right: 5.6em;
+  }
+
+  .avatar {
+    height: 20vh;
+    width: 30vw;
+  }
+  .avatarfig {
+    width: 30vw;
+  }
+  .overflowdiv {
+    width: 350vw;
+  }
+  .overflowdivv {
+    width: 450vw;
+  }
+}
