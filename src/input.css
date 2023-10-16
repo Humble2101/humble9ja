@@ -8,7 +8,9 @@
 .linear {
   background: linear-gradient(20deg, white 50%, blue 50%);
 }
-
+.sect {
+  background-image: url(../img/darkknight.jpeg);
+}
 .logo {
   font-style: italic;
   font-family: serif;
@@ -16,18 +18,24 @@
   font-weight: 900;
   text-shadow: black;
 }
-ul {
-}
+
 .top {
   font-family: fantasy;
 }
 @media (max-width: 500px) {
   .logo {
-    padding-left: 40px;
     position: relative;
-    right: 1em;
-    width: 90vw;
+    right: 5em;
+    width: 20vw;
+    font-size: large;
   }
+  .ul {
+    font-size: small;
+  }
+  .bi-sun-fill {
+    font-size: large;
+  }
+
   .firstp {
     font-size: medium;
   }
@@ -58,5 +66,22 @@ ul {
   }
   .overflowdivv {
     width: 450vw;
+  }
+  .footer {
+    font-size: x-small;
+  }
+  .translate {
+    width: 25vw;
+    height: 6vh;
+  }
+  .bi-translate {
+    font-size: small;
+  }
+  /* .bluepart {
+    height: 30vh;
+  } */
+  .darknight {
+    height: 20vh;
+    width: 40vw;
   }
 }

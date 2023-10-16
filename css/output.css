@@ -538,8 +538,24 @@ video {
   position: relative;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .bottom-4 {
   bottom: 1rem;
+}
+
+.bottom-\[-8em\] {
+  bottom: -8em;
+}
+
+.bottom-\[15em\] {
+  bottom: 15em;
+}
+
+.bottom-\[20em\] {
+  bottom: 20em;
 }
 
 .bottom-\[2em\] {
@@ -564,6 +580,22 @@ video {
 
 .left-\[0\.5em\] {
   left: 0.5em;
+}
+
+.left-\[1\.5em\] {
+  left: 1.5em;
+}
+
+.left-\[1em\] {
+  left: 1em;
+}
+
+.left-\[2em\] {
+  left: 2em;
+}
+
+.right-\[0\.5em\] {
+  right: 0.5em;
 }
 
 .top-1 {
@@ -654,6 +686,14 @@ video {
   height: 53vh;
 }
 
+.h-\[54vh\] {
+  height: 54vh;
+}
+
+.h-\[5vh\] {
+  height: 5vh;
+}
+
 .h-\[6vh\] {
   height: 6vh;
 }
@@ -664,6 +704,14 @@ video {
 
 .h-\[8vh\] {
   height: 8vh;
+}
+
+.h-\[200vh\] {
+  height: 200vh;
+}
+
+.h-\[100vh\] {
+  height: 100vh;
 }
 
 .w-\[100\%\] {
@@ -682,12 +730,20 @@ video {
   width: 14vw;
 }
 
+.w-\[15vw\] {
+  width: 15vw;
+}
+
 .w-\[16vw\] {
   width: 16vw;
 }
 
 .w-\[200vw\] {
   width: 200vw;
+}
+
+.w-\[22vw\] {
+  width: 22vw;
 }
 
 .w-\[250vw\] {
@@ -781,6 +837,10 @@ video {
 .rounded-t-xl {
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
+}
+
+.border-4 {
+  border-width: 4px;
 }
 
 .border-\[1px\] {
@@ -932,9 +992,6 @@ video {
   font-size: xx-large;
   font-weight: 900;
   text-shadow: black;
-}
-
-ul {
 }
 
 .top {
@@ -1121,8 +1178,32 @@ ul {
 }
 
 @media (min-width: 768px) {
+  .md\:bottom-\[16em\] {
+    bottom: 16em;
+  }
+
+  .md\:bottom-\[31em\] {
+    bottom: 31em;
+  }
+
   .md\:left-0 {
     left: 0px;
+  }
+
+  .md\:left-\[11\.5em\] {
+    left: 11.5em;
+  }
+
+  .md\:left-\[3em\] {
+    left: 3em;
+  }
+
+  .md\:top-0 {
+    top: 0px;
+  }
+
+  .md\:top-\[3em\] {
+    top: 3em;
   }
 
   .md\:top-\[5em\] {
@@ -1137,6 +1218,22 @@ ul {
     top: 8em;
   }
 
+  .md\:left-\[0em\] {
+    left: 0em;
+  }
+
+  .md\:left-\[-3em\] {
+    left: -3em;
+  }
+
+  .md\:left-\[-1em\] {
+    left: -1em;
+  }
+
+  .md\:left-\[0\.5em\] {
+    left: 0.5em;
+  }
+
   .md\:ml-\[30px\] {
     margin-left: 30px;
   }
@@ -1147,6 +1244,10 @@ ul {
 
   .md\:h-\[51vh\] {
     height: 51vh;
+  }
+
+  .md\:w-\[15vw\] {
+    width: 15vw;
   }
 
   .md\:w-\[16vw\] {
@@ -1167,6 +1268,14 @@ ul {
 
   .md\:w-\[40vw\] {
     width: 40vw;
+  }
+
+  .md\:w-\[6vw\] {
+    width: 6vw;
+  }
+
+  .md\:w-\[8vw\] {
+    width: 8vw;
   }
 
   .md\:text-2xl {
